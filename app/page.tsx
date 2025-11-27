@@ -113,7 +113,7 @@ export default function Home() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="w-full h-80 bg-[url('/about-preview.jpg')] bg-cover bg-center rounded-lg shadow-lg" />
+            <div className="w-full h-80 bg-[url('/img/about-preview.jpg')] bg-cover bg-center rounded-lg shadow-lg" />
           </motion.div>
         </div>
       </section>

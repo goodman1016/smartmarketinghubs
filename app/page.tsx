@@ -8,11 +8,30 @@ export default function Home() {
 
       {/* ================= HERO SECTION ================= */}
       <section className="relative h-[100vh] flex items-center justify-center">
-        {/* Background Image */}
-        <div className="absolute inset-0 bg-[url('/img/hero-dark.jpg')] bg-cover bg-center opacity-40" />
-        <div className="absolute inset-0 bg-black/70" />
+        
+        {/* Background Image — subtle enhancement */}
+        <div
+          className="
+            absolute inset-0
+            bg-[url('/img/hero-dark.jpg')]
+            bg-cover bg-center
+            brightness-[1.05]
+            contrast-[1.08]
+          "
+        />
 
-        {/* Text */}
+        {/* Soft fade overlay */}
+        <div
+          className="
+            absolute inset-0
+            bg-gradient-to-b
+            from-black/40
+            via-black/55
+            to-black/80
+          "
+        />
+
+        {/* Text + Buttons */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

@@ -28,8 +28,15 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
           
           {/* LOGO */}
-          <a href="/" className="text-2xl font-bold tracking-wide">
-            Smart<span className="text-[#C5A46E]">Marketing</span>Hubs
+          <a href="/" className="flex items-center gap-3">
+            <img
+              src="/img/logo.png"
+              alt="SmartMarketingHubs Logo"
+              className="h-10 w-auto object-contain"
+            />
+            <span className="text-2xl font-bold tracking-wide">
+              Smart<span className="text-[#C5A46E]">Marketing</span>Hubs
+            </span>
           </a>
 
           {/* DESKTOP MENU */}

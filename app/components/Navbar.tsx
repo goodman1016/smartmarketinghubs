@@ -9,7 +9,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const pathname = usePathname(); // <-- detect current page
-  const items = ["about", "services", "partner", "contact"];
+  const items = ["about", "services", "partner", "careers", "contact"];
 
   const isActive = (item: string) =>
     pathname === `/${item}` || pathname === `/${item}/`;
